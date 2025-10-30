@@ -1,0 +1,257 @@
+/* global */
+* {
+  box-sizing: border-box;
+}
+
+/* colour palette */
+
+:root {
+  --alice-blue: #f3f8fc;
+  --platinum: #dddddd;
+  --pale-azure: #84d7ff;
+  --blue-green: #0099cc;
+  --gunmetal: #16262e;
+}
+
+/* imported fonts */
+
+.lilita-one-regular {
+  font-family: "Lilita One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* main */
+
+main {
+  margin: 0 12px;
+}
+
+body {
+  font-family: "Fjalla One", sans-serif;
+  color: var(--gunmetal);
+  background: url("https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/bio-bluebackground.jpg?v=1744847234965");
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+/* text */
+h1 {
+  font-family: "Lilita One", sans-serif;
+}
+h2 {
+  font-family: "Lilita One", sans-serif;
+  margin-top: 0;
+}
+
+p {
+  font-family: "Fjalla One", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Logo */
+.KWLogo {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+}
+
+/* header */
+.container {
+  background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+
+/* Hamburger menu*/
+.menu {
+  position: relative;
+}
+
+/* menu toggle */
+.menu-toggle {
+  border: 2px solid var(--gunmetal);
+  background: transparent;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.menu-toggle:hover,
+.menu.is-visible .menu-toggle {
+  border-color: var(--gunmetal);
+  background: var(--alice-blue);
+  border: 2px solid var(--pale-azure);
+}
+
+/* menu toggle icon styles */
+.menu-toggle-text {
+  display: none;
+}
+
+.menu-toggle-bars {
+  position: relative;
+  width: 20px;
+  height: 16px;
+}
+
+.menu-toggle-bar {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gunmetal);
+  transition: all 0.5s;
+}
+
+.menu-toggle:hover .menu-toggle-bar,
+.menu.is-visible .menu-toggle-bar {
+  background: var(--pale-azure);
+}
+
+.menu-toggle-bar-top {
+  top: 0;
+}
+
+.menu-toggle-bar-middle {
+  top: 50%;
+  margin-top: -1px;
+}
+
+.menu-toggle-bar-bottom {
+  bottom: 0;
+}
+
+/* main-nav */
+
+.main-nav {
+  display: none; /* hide the list by default for lower resolutions */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  z-index: 1;
+}
+
+.menu.is-visible .main-nav {
+  display: block; /* display the list when the button is selected */
+}
+
+.main-nav-link {
+  display: block;
+  color: var(--gunmetal);
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 25px;
+  transition: all 0.5s;
+  background: var(--pale-azure);
+}
+
+.main-nav-link:hover {
+  background: var(--alice-blue);
+}
+
+/* footer */
+
+footer {
+  padding: 10px 25px;
+  background: url("https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/bio-bluebackground.jpg?v=1744847234965"); /* change colour */
+  background-size: contain;
+  background-attachment: fixed;
+}
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footer-nav-link {
+  display: block;
+  color: var(--gunmetal);
+  text-decoration: none;
+  padding-left: 25px;
+  transition: all 0.5s;
+}
+
+.footer-nav-link:hover {
+  color: var(--pale-azure);
+}
+
+/*width 900px break point (nav bar to be expanded)*/
+
+@media (min-width: 900px) {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+  }
+  /* Logo */
+  .KWLogo {
+    margin: 0 24px;
+  }
+  /* nav */
+  .main-nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: static;
+  }
+  .menu.is-visible .main-nav {
+    display: flex;
+  }
+
+  .main-nav-link {
+    display: block;
+    color: var(--gunmetal);
+    font-size: 16px;
+    text-decoration: none;
+    padding: 10px 25px;
+    transition: all 0.5s;
+    background: transparent;
+  }
+  .active {
+    background: var(--alice-blue);
+    border: 2px solid var(--pale-azure);
+    border-radius: 4px;
+  }
+
+  .main-nav-link:hover {
+    color: var(--blue-green);
+    border-radius: 4px;
+  }
+
+  .menu-toggle {
+    display: none;
+  }
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

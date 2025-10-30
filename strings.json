@@ -1,0 +1,178 @@
+[
+  {
+    "name": "BG65",
+    "brand": "Yonex",
+    "class": "durableString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG65.png?v=1746738630994",
+    "thickness": "0.7mm guage",
+    "description": "Popular string for an all round player, used by many of the world's top players."
+  },
+  {
+    "name": "BG65 titanium",
+    "brand": "Yonex",
+    "class": "durableString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG65TI.png?v=1746738789076",
+    "thickness": "0.7mm guage",
+    "description": "Popular string for hard hitters wanting a hard feel, titanium coating addes durability."
+  },
+  {
+    "name": "Nanogy 99",
+    "brand": "Yonex",
+    "class": "durableString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/NBG99.png?v=1746738831810",
+    "thickness": "0.69mm guage",
+    "description": "Suited for technical player with control, rough texture provides 'bite' on shuttle."
+  },
+  {
+    "name": "Nanogy 95",
+    "brand": "Yonex",
+    "class": "durableString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/NBG95.png?v=1746738827749",
+    "thickness": "0.69mm guage",
+    "description": "Offers power and durability as it uses multifilament cup, suited for players looking for speed and durability."
+  },
+  {
+    "name": "VBS-70",
+    "brand": "Victor",
+    "class": "durableString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/VBS70.png?v=1746738837916",
+    "thickness": "0.70mm guage",
+    "description": "Nice for players pursuing good placement and control, maintains excellent resilience and durability."
+  },
+  {
+    "name": "No.5",
+    "brand": "Li-ning",
+    "class": "durableString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/LN5.png?v=1746738825619",
+    "thickness": "0.70mm guage",
+    "description": "Good mix of repulsion and durability, strong and can withstand many mis-hits."
+  },
+  {
+    "name": "BG66 Brillant",
+    "brand": "Yonex",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG66B.png?v=1746738791936",
+    "thickness": "0.66mm guage",
+    "description": "Sharp impact and great hitting sound, the new branding structure provides high repulsion."
+  },
+  {
+    "name": "BG66 Ultimax",
+    "brand": "Yonex",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG66UM.png?v=1746738798350",
+    "thickness": "0.65mm guage",
+    "description": "Popular choice for the world's top players, high intensity multifilament offers more power."
+  },
+  {
+    "name": "BG66 Force",
+    "brand": "Yonex",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG66F.png?v=1746738794801",
+    "thickness": "0.65mm guage",
+    "description": "Repulsion power combined with excellent contorl, offers great feel and less shock."
+  },
+  {
+    "name": "BG80",
+    "brand": "Yonex",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG80.png?v=1746738800790",
+    "thickness": "0.68mm guage",
+    "description": "Vectran fibre wrapped around a multifilament, suited for hard hitters."
+  },
+  {
+    "name": "BG80 power",
+    "brand": "Yonex",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG80P.png?v=1746738803069",
+    "thickness": "0.68mm guage",
+    "description": "High intensity multifilament vectran string, offers a solid feel and well suited for power hitters."
+  },
+  {
+    "name": "Nanogy 98",
+    "brand": "Yonex",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/NBG98.png?v=1746738829292",
+    "thickness": "0.66mm guage",
+    "description": "Ideal for players who want a sharp feeling string with great repulsion for high and defensic=ve shots."
+  },
+  {
+    "name": "VBS-68",
+    "brand": "Victor",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/VBS68.png?v=1746738835747",
+    "thickness": "0.68mm guage",
+    "description": "Suitable for players pursuing high performance in speed and contorl, it offers a hard feeling."
+  },
+  {
+    "name": "No.1",
+    "brand": "Li-ning",
+    "class": "performanceString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/LN1.png?v=1746738821766",
+    "thickness": "0.68mm guage",
+    "description": "Thin string with lots of repulsion and a high hitting sound, suited for hard hitters."
+  },
+  {
+    "name": "Aerosonic",
+    "brand": "Yonex",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BGAS.png?v=1746738812695",
+    "thickness": "0.61mm guage",
+    "description": "Ultra thin gauge. This string provides a swift swing aling with a resounding and exhilerating sound."
+  },
+  {
+    "name": "Aerobite",
+    "brand": "Yonex",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BGAB.png?v=1746738807786",
+    "thickness": "0.67mm x 0.61mm guage",
+    "description": "A hybrid combo with alternating gauges, it applies solid touch for hairpins at the nets."
+  },
+  {
+    "name": "Aerobite Boost",
+    "brand": "Yonex",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BGABBT.png?v=1746738810280",
+    "thickness": "0.72mm x 0.61mm guage",
+    "description": "A hybrid combo with alternating gauges, maximum control without scarificing repulsion."
+  },
+  {
+    "name": "Exbolt 63",
+    "brand": "Yonex",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BGXB63.png?v=1746738816706",
+    "thickness": "0.63mm x 0.61mm guage",
+    "description": "The thin yet durable forged fibre generates exhilarating sound at impact and high velocity drives."
+  },
+  {
+    "name": "BG 85",
+    "brand": "Yonex",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/BG85.png?v=1746738805348",
+    "thickness": "0.67mm guage",
+    "description": "Rough feeling string with hard touch, loud and high hitting sound."
+  },
+  {
+    "name": "G-tone 5",
+    "brand": "Gosen",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/GT5.png?v=1746738819224",
+    "thickness": "0.65mm guage",
+    "description": "Rough feeling string with enhanced durability, suited for hard hitters."
+  },
+  {
+    "name": "VBS-66NANO",
+    "brand": "Victor",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/VBS66NANO.png?v=1746738834074",
+    "thickness": "0.66mm guage",
+    "description": "Nano tech based core which gives an excellent resilience and increased string control, medium feel with power."
+  },
+  {
+    "name": "No.1 boost",
+    "brand": "Li-ning",
+    "class": "eliteString",
+    "image": "https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/LN1BOOST.png?v=1746738824104",
+    "thickness": "0.66mm guage",
+    "description": "Offers maximum repulsion and feel, this string delivers a firm hard hitting sound and feel."
+  }
+]

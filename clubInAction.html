@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Club In Action</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/KW%20logo.png?v=1743986228205"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="clubInAction.css" />
+    <link rel="stylesheet" href="../global.css" />
+    <script defer src="../hamburgerMenu.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="../">
+          <img
+            src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/KW%20logo.png?v=1743986228205"
+            alt="KW Badminton Logo"
+            class="KWLogo"
+          />
+        </a>
+      </header>
+      <nav class="menu">
+        <button class="menu-toggle">
+          <span class="menu-toggle-text">Menu</span>
+          <div class="menu-toggle-bars">
+            <div class="menu-toggle-bar menu-toggle-bar-top"></div>
+            <div class="menu-toggle-bar menu-toggle-bar-middle"></div>
+            <div class="menu-toggle-bar menu-toggle-bar-bottom"></div>
+          </div>
+        </button>
+        <ul class="main-nav">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../service/stringAndStencil.html"
+              >Service</a
+            >
+          </li>
+          <li class="main-nav-item">
+            <a
+              class="main-nav-link active"
+              href="../clubInAction/clubInAction.html"
+              >Club in Action</a
+            >
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../quiz/quiz.html">Quiz</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../contactUs/contactUs.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <header><h1>Club in action!</h1></header>
+      <p>
+        Let’s take a look at what the club’s been up to — straight from our
+        Instagram feed!
+      </p>
+      <div class="image-feeds">
+        <behold-widget
+          feed-id="1lHp1s3A5pnn4chs3Oy3"
+          class="imageFeed"
+        ></behold-widget>
+        <script>
+          (() => {
+            const d = document,
+              s = d.createElement("script");
+            s.type = "module";
+            s.src = "https://w.behold.so/widget.js";
+            d.head.append(s);
+          })();
+        </script>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 KWBadmintonc, all rights reserved</p>
+      <p>Email: example@email.com</p>
+      <ul class="footer-nav">
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#">Cookies</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

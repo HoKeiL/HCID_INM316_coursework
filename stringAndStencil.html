@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Service</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/KW%20logo.png?v=1743986228205"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="stringAndStencil.css" />
+    <script defer src="addStringsToPage.js"></script>
+    <script defer src="serviceButtonClick.js"></script>
+    <link rel="stylesheet" href="../global.css" />
+    <script defer src="../hamburgerMenu.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="../">
+          <img
+            src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/KW%20logo.png?v=1743986228205"
+            alt="KW Badminton Logo"
+            class="KWLogo"
+          />
+        </a>
+      </header>
+      <nav class="menu">
+        <button class="menu-toggle">
+          <span class="menu-toggle-text">Menu</span>
+          <div class="menu-toggle-bars">
+            <div class="menu-toggle-bar menu-toggle-bar-top"></div>
+            <div class="menu-toggle-bar menu-toggle-bar-middle"></div>
+            <div class="menu-toggle-bar menu-toggle-bar-bottom"></div>
+          </div>
+        </button>
+        <ul class="main-nav">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../index.html">Home</a>
+          </li>
+          <li class="main-nav-item">
+            <a
+              class="main-nav-link active"
+              href="../service/stringAndStencil.html"
+              >Service</a
+            >
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../clubInAction/clubInAction.html"
+              >Club in Action</a
+            >
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../quiz/quiz.html">Quiz</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../contactUs/contactUs.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <div class="service-buttons">
+        <!-- Double check if "prettier" makes a line break at the btn, this will break the JS! Ensure btns are on one lnie-->
+        <button class="service-button currently-selected-button">Strings</button>
+        <button class="service-button">Stencils</button>
+      </div>
+      <div class="contact-us-link">
+        <a href="../contactUs/contactUs.html" class="link-to-contact-us"
+          >Book a service</a
+        >
+      </div>
+
+      <div
+        class="service-details service-details-Strings currently-selected-service"
+      >
+        <h1>Avaliable strings</h1>
+        <div class="string-content">
+          <nav class="local-menu">
+            <ul class="local-nav">
+              <li class="local-nav-item">
+                <a class="local-nav-link" href="#durableStrings"
+                  >Durable strings</a
+                >
+              </li>
+              <li class="local-nav-item">
+                <a class="local-nav-link" href="#performanceStrings"
+                  >Performance strings</a
+                >
+              </li>
+              <li class="local-nav-item">
+                <a class="local-nav-link" href="#eliteStrings">Elite strings</a>
+              </li>
+            </ul>
+          </nav>
+          <h2 id="durableStrings">Durable strings</h2>
+          <div class="durableStrings"></div>
+        </div>
+        <div class="string-content">
+          <h2 id="performanceStrings">Performance strings</h2>
+          <div class="performanceStrings"></div>
+        </div>
+        <div class="string-content">
+          <h2 id="eliteStrings">Elite strings</h2>
+          <div class="eliteStrings"></div>
+        </div>
+      </div>
+      <div class="service-details service-details-Stencils">
+        <h1>Avaliable stencils</h1>
+        <div class="stencil-content">
+          <nav class="local-menu">
+            <ul class="local-nav">
+              <li class="local-nav-item">
+                <a class="local-nav-link" href="#logoStencil">Logo stencils</a>
+              </li>
+              <li class="local-nav-item">
+                <a class="local-nav-link" href="#cartoonStencil"
+                  >Cartoon stencils</a
+                >
+              </li>
+            </ul>
+          </nav>
+          <h2 id="logoStencil">Logo stencils</h2>
+          <div class="stencils">
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="yonexStencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/yonexStencil.jpg?v=1746706039028"
+              />
+              <div class="stencil-info">
+                <h3>Yonex logo stencil</h3>
+                <p>
+                  YY logo stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="yonexStencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/yonexStencil.jpg?v=1746706039028"
+              />
+              <div class="stencil-info">
+                <h3>Yonex logo stencil</h3>
+                <p>
+                  YY logo stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="yonexStencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/yonexStencil.jpg?v=1746706039028"
+              />
+              <div class="stencil-info">
+                <h3>Yonex logo stencil</h3>
+                <p>
+                  YY logo stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="Yonex Stencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/yonexStencil.jpg?v=1746706039028"
+              />
+              <div class="stencil-info">
+                <h3>Yonex logo stencil</h3>
+                <p>
+                  YY logo stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="stencil-content">
+          <h2 id="cartoonStencil">Cartoon stencils</h2>
+          <div class="stencils">
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="Snoopy Stencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/snoopyStencil.jpg?v=1746745426320"
+              />
+              <div class="stencil-info">
+                <h3>Snoopy stencil</h3>
+                <p>
+                  Snoopy stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="Snoopy Stencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/snoopyStencil.jpg?v=1746745426320"
+              />
+              <div class="stencil-info">
+                <h3>Snoopy stencil</h3>
+                <p>
+                  Snoopy stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="Batman Stencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/batmanStencil?v=1746707329639"
+              />
+              <div class="stencil-info">
+                <h3>Batman stencil</h3>
+                <p>
+                  Batman stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+            <div class="stencil">
+              <img
+                class="stencil-image"
+                alt="Batman Stencil"
+                src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/batmanStencil?v=1746707329639"
+              />
+              <div class="stencil-info">
+                <h3>Batman stencil</h3>
+                <p>
+                  Batman stencil card for painting the logo back onto badminton
+                  rackets.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 KWBadmintonc, all rights reserved</p>
+      <p>Email: example@email.com</p>
+      <ul class="footer-nav">
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#">Cookies</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>

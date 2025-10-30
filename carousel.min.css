@@ -1,0 +1,112 @@
+.js-Carousel {
+  background: var(--gunmetal);
+  height: 325px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: relative;
+  width: 325px;
+}
+.js-Carousel > ul {
+  height: 200px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 9999px;
+}
+.js-Carousel > ul li {
+  display: inline-block;
+  float: left;
+  width: 325px;
+  transition: margin-left 0.3s ease;
+}
+
+.js-Carousel > ul li img {
+  max-width: 100%;
+}
+.js-Carousel .js-Carousel-arrowPrev,
+.js-Carousel .js-Carousel-arrowNext {
+  background: transparent;
+  border: 0;
+  color: var(--platinum);
+  cursor: pointer;
+  font: 400 10em sans-serif;
+  height: 200px;
+  outline: 0;
+  position: absolute;
+  text-shadow: 0 0 10px var(--gunmetal);
+  width: 90px;
+  transition: all 0.2s ease;
+}
+.js-Carousel .js-Carousel-arrowPrev {
+  top: 1.1em;
+  left: 0;
+}
+.js-Carousel .js-Carousel-arrowNext {
+  top: 1.1em;
+  right: 1.1em;
+}
+.js-Carousel .js-Carousel-arrowPrev:hover,
+.js-Carousel .js-Carousel-arrowNext:hover {
+  color: var(--pale-azure);
+}
+
+.js-Carousel .js-Carousel-dots {
+  display: inline-block;
+  height: 1.25em;
+  margin: 0;
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+  width: auto;
+}
+.js-Carousel .js-Carousel-dots li {
+  background: var(--platinum);
+  border-radius: 0.75em;
+  cursor: pointer;
+  display: inline-block;
+  height: 0.75em;
+  margin: 0 0.75em;
+  width: 0.75em;
+  transition: all 0.2s ease;
+}
+.js-Carousel .js-Carousel-dots li.is-active {
+  background: var(--alice-blue);
+  box-shadow: 0 0 3px 3px var(--platinum);
+}
+.js-Carousel .js-Carousel-dots li:hover {
+  background: var(--pale-azure);
+}
+
+/* Carousel to be resized bigger to fit screen*/
+
+@media (min-width: 580px) {
+  .js-Carousel {
+    background: var(--gunmetal);
+    height: 450px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 500px;
+  }
+  .js-Carousel > ul {
+    height: 200px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    width: 9999px;
+  }
+  .js-Carousel > ul li {
+    display: inline-block;
+    float: left;
+    width: 500px;
+    transition: margin-left 0.3s ease;
+  }
+  .js-Carousel .js-Carousel-arrowPrev {
+    top: 1.9em;
+    left: 0;
+  }
+  .js-Carousel .js-Carousel-arrowNext {
+    top: 1.9em;
+    right: 1.9em;
+  }
+}

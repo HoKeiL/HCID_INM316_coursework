@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us</title>
+    <link
+      rel="icon"
+      type="image/x-icon"
+      href="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/KW%20logo.png?v=1743986228205"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lilita+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="contactUs.css" />
+    <link rel="stylesheet" href="../global.css" />
+    <script defer src="../hamburgerMenu.js"></script>
+    <script defer src="contactUs.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <a href="../">
+          <img
+            src="https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/KW%20logo.png?v=1743986228205"
+            alt="KW Badminton Logo"
+            class="KWLogo"
+          />
+        </a>
+      </header>
+      <nav class="menu">
+        <button class="menu-toggle">
+          <span class="menu-toggle-text">Menu</span>
+          <div class="menu-toggle-bars">
+            <div class="menu-toggle-bar menu-toggle-bar-top"></div>
+            <div class="menu-toggle-bar menu-toggle-bar-middle"></div>
+            <div class="menu-toggle-bar menu-toggle-bar-bottom"></div>
+          </div>
+        </button>
+        <ul class="main-nav">
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../index.html">Home</a>
+          </li>
+
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../service/stringAndStencil.html"
+              >Service</a
+            >
+          </li>
+
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../clubInAction/clubInAction.html"
+              >Club in Action</a
+            >
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link" href="../quiz/quiz.html">Quiz</a>
+          </li>
+          <li class="main-nav-item">
+            <a class="main-nav-link active" href="../contactUs/contactUs.html"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <main>
+      <header><h1>Contact Us</h1></header>
+      <div class="row">
+        <div class="column">
+          <h2>Service form</h2>
+          <form action="#">
+            <label for="firstname">First name*:</label>
+            <input
+              type="text"
+              name="firstname"
+              placeholder="Your firstname"
+              id="firstname"
+              required
+            />
+            <label for="lastname">Last name*:</label>
+            <input
+              type="text"
+              name="lastname"
+              placeholder="Your lastname"
+              id="lastname"
+              required
+            />
+            <label for="contact-details"> Contact detail*: </label>
+            <input
+              type="tel"
+              name="client-phonenumber"
+              placeholder="Your phone number"
+              id="contact-details"
+              required
+            />
+            <label for="type-of-service"> Type of service: </label>
+            <label class="service" for="service-restring"
+              >Restring
+              <input
+                type="checkbox"
+                name="service-type"
+                value="Restring"
+                class="checkbox"
+                id="service-restring"
+              />
+            </label>
+            <label class="service" for="service-stencil"
+              >Stencil
+              <input
+                type="checkbox"
+                name="service-type"
+                value="Stencil"
+                class="checkbox"
+                id="service-stencil"
+              />
+            </label>
+
+            <label for="number-of-rackets">
+              Number of rackets*:
+              <select name="rackets-amounts" id="number-of-rackets" required>
+                <option></option>
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5+</option>
+              </select>
+            </label>
+            <label for="service-description">Service description</label>
+            <textarea
+              name="service-description"
+              id="service-description"
+              placeholder="Tell us about which string/stencil would like for each racket"
+              rows="5"
+              cols="50"
+            ></textarea>
+            <button type="submit" class="submit-form">Submit form</button>
+          </form>
+        </div>
+        <div class="column">
+          <h2>How to find us:</h2>
+          <p class="KWcontact-details">Phone number: 07xxx xxx xxx</p>
+          <p class="KWcontact-details">Email: example@email.com</p>
+          <iframe
+            class="embedded-map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2454.264247029014!2d-0.7858711550535468!3d52.03850004294923!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48770012efee48a3%3A0x266dea845e8add02!2sNational%20Badminton%20Centre!5e0!3m2!1sen!2suk!4v1746629123747!5m2!1sen!2suk"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <p>&copy; 2025 KWBadmintonc, all rights reserved</p>
+      <p>Email: example@email.com</p>
+      <ul class="footer-nav">
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#">Privacy Policy</a>
+        </li>
+        <li class="footer-nav-item">
+          <a class="footer-nav-link" href="#">Cookies</a>
+        </li>
+      </ul>
+    </footer>
+  </body>
+</html>
