@@ -35,7 +35,7 @@ main {
 body {
   font-family: "Fjalla One", sans-serif;
   color: var(--gunmetal);
-  background: url("https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/bio-bluebackground.jpg?v=1744847234965");
+  background: url("images/bio-bluebackground.jpg");
   background-size: contain;
   background-attachment: fixed;
 }
@@ -170,7 +170,7 @@ p {
 
 footer {
   padding: 10px 25px;
-  background: url("https://cdn.glitch.global/da884b3d-8cb4-4a31-aae2-36f8a162c986/bio-bluebackground.jpg?v=1744847234965"); /* change colour */
+  background: url("images/bio-bluebackground.jpg"); /* change colour */
   background-size: contain;
   background-attachment: fixed;
 }
