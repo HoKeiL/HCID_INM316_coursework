@@ -12,7 +12,6 @@ Live site: https://kwstringingservice.netlify.app/
 
 - `index.html` – homepage with photo carousel and service overview
 - `stringAndStencil.html` – Services page with Strings / Stencils tabs (string cards are built from `strings.json` by `addStringsToPage.js`)
-- `clubInAction.html` – club photo feed
 - `quiz.html` – badminton quiz
 - `contactUs.html` – contact form and map
 
