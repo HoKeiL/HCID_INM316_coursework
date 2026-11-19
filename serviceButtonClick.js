@@ -35,3 +35,13 @@ function updateClickedButtonState(serviceButtonElement) {
 function updateServiceDetailState(serviceDetailElement) {
   serviceDetailElement.classList.remove("currently-selected-service");
 }
+
+// open the Stencils tab when arriving from a link ending in #stencils
+// (used by the "Choose stencils" link on the homepage)
+if (window.location.hash === "#stencils") {
+  serviceButtonElements.forEach(function (serviceButtonElement) {
+    if (serviceButtonElement.textContent === "Stencils") {
+      serviceButtonElement.click();
+    }
+  });
+}
